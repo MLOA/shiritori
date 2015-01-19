@@ -3,9 +3,11 @@
 
  向こうでディレクトリ及びURL発行してからやるのを想定
 
+ __よく使うだろうコマンドをべべべと記述します__
+
 ### URLをコピーしたのちcloneをする
 
-$ git clone http://~~~~/user/hoge (作成するディレクトリ)
+	$ git clone http://~~~~/user/hoge (作成するディレクトリ)
 
  ちなみにURLの後ろにディレクトリ名を指定できる
 
@@ -18,7 +20,7 @@ $ git clone http://~~~~/user/hoge (作成するディレクトリ)
 
  そこでupstreamと呼ばれる別のリモートを作成しておくと便利な場合がある
 
-$ git remote add upstream http://~~~~/user/hoge
+	$ git remote add upstream http://~~~~/user/hoge
 
 ### ブランチを作成して切り替えする
 
@@ -64,4 +66,5 @@ $ git remote add upstream http://~~~~/user/hoge
 	$ git fetch (リポジトリ名)
 
  変更を反映させる
+
 	$ git merge (リポジトリ名)/(反映させたいブランチ)
