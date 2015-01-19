@@ -13,3 +13,5 @@
 やったね！
 
 ### ここらでブランチがよくわからないから練習するお！
+ $ git push origin shisoshiritori
+でやりましたお
