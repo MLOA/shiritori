@@ -5,6 +5,8 @@
 
  __よく使うだろうコマンドをべべべと記述します__
 
+ 結構乱暴な書き方です。すいません
+
 ### URLをコピーしたのちcloneをする
 
 	$ git clone http://~~~~/user/hoge (作成するディレクトリ)
@@ -30,7 +32,9 @@
 
 	$ git checkout (ブランチ名)
 
-### 自分のブランチをoriginへプッシュするときのながれ
+### 自分のmasterブランチをoriginへプッシュするときのながれ
+	$ git checkout master
+
  まずは大元(origin)のリモート指定
 
 	$ git remote add origin http://~~~~/user/hoge
@@ -50,6 +54,13 @@
  プッシュする
 
 	$ git push origin (ブランチの指定)
+
+### 自分が作成したブランチからpushするとき
+ 初めてプッシュするときに
+
+	$ git push --set-upstream origin (ブランチ名)
+
+ 次からは--set-upstreamは省ける？
 
 ### 更新した点を取得する
 
